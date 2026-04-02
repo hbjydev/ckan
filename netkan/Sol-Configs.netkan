@@ -1,0 +1,18 @@
+identifier: Sol-Configs
+name: Sol Configs
+abstract: The next generation of RSS-Reborn
+author:
+  - ballisticfox
+$kref: '#/ckan/github/RSS-Reborn/Sol-Configs/asset_match/Sol-Configs-.*\.zip'
+release_status: testing
+resources:
+  bugtracker: https://github.com/RSS-Reborn/Sol-Configs/issues
+  manual: https://github.com/rss-reborn/sol-configs/wiki
+  homepage: https://github.com/rss-reborn/sol-configs/wiki
+  repository: https://github.com/rss-reborn/sol-configs
+install:
+  - file: GameData/Sol-Configs
+    install_to: GameData
+  - file: GameData/000_NiakoUtils
+    install_to: GameData
+ksp_version_min: '1.12'

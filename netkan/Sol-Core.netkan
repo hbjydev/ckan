@@ -1,0 +1,38 @@
+identifier: Sol-Core
+name: Sol Core
+abstract: The next generation of RSS-Reborn
+author:
+  - ballisticfox
+$kref: '#/ckan/github/RSS-Reborn/Sol-Core/asset_match/Sol_Core-.*\.zip'
+release_status: testing
+resources:
+  bugtracker: https://github.com/RSS-Reborn/Sol-Core/issues
+  manual: https://github.com/rss-reborn/sol-configs/wiki
+  homepage: https://github.com/rss-reborn/sol-configs/wiki
+  repository: https://github.com/rss-reborn/sol-core
+ksp_version_min: '1.12'
+install:
+  - file: GameData/Sol-Textures
+    install_to: GameData
+depends:
+  - name: Kopernicus
+  - name: ParallaxContinued
+  - name: KSPTextureLoader
+  - name: AdvancedPQSTools
+  - name: Sol-Configs
+  - name: Sol-LaunchSites
+  - name: Sol-Sun
+  - name: Sol-Mercury
+  - name: Sol-Venus
+  - name: Sol-EarthSystem
+  - name: Sol-MarsSystem
+  - name: Sol-JupiterSystem
+  - name: Sol-SaturnSystem
+  - name: Sol-UranusSystem
+  - name: Sol-NeptuneSystem
+  - name: Sol-AsteroidBelt
+  - name: Sol-KuiperBelt
+conflicts:
+  - name: RealSolarSystem
+provides:
+  - RealSolarSystem
