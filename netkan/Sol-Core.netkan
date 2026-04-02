@@ -23,7 +23,7 @@ depends:
   - name: AdvancedPQSTools
   - name: KSPCommunityFixes
   - name: Sol-Configs
-  - name: Sol-LaunchSites
+  - name: Sol-Launchsites
   - name: Sol-Sun
   - name: Sol-Mercury
   - name: Sol-Venus
