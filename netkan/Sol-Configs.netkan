@@ -4,7 +4,7 @@ abstract: The next generation of RSS-Reborn
 license: restricted
 author:
   - ballisticfox
-$kref: '#/ckan/github/RSS-Reborn/Sol-Configs/asset_match/Sol-Configs-.*\.zip'
+$kref: '#/ckan/github/RSS-Reborn/Sol-Configs/asset_match/Sol_Configs-.*\.zip'
 release_status: stable
 resources:
   bugtracker: https://github.com/RSS-Reborn/Sol-Configs/issues
@@ -14,8 +14,6 @@ resources:
 ksp_version_max: '1.12'
 install:
   - file: GameData/Sol-Configs
-    install_to: GameData
-  - file: GameData/000_NiakoUtils
     install_to: GameData
 depends:
   - name: ModuleManager

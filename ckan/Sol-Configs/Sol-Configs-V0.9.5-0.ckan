@@ -6,7 +6,7 @@
     "author": [
         "ballisticfox"
     ],
-    "version": "V0.9.3-1",
+    "version": "V0.9.5-0",
     "ksp_version_min": "1.12",
     "ksp_version_max": "1.12",
     "license": "restricted",
@@ -39,20 +39,16 @@
         {
             "file": "GameData/Sol-Configs",
             "install_to": "GameData"
-        },
-        {
-            "file": "GameData/000_NiakoUtils",
-            "install_to": "GameData"
         }
     ],
-    "download": "https://github.com/RSS-Reborn/Sol-Configs/releases/download/V0.9.3-1/Sol-Configs-V0.9.3-1.zip",
-    "download_size": 2499596,
+    "download": "https://github.com/RSS-Reborn/Sol-Configs/releases/download/V0.9.5-0/Sol_Configs-V0.9.5.zip",
+    "download_size": 2484021,
     "download_hash": {
-        "sha1": "F556BBD9045C93156D07D69B8550BED86BBDEFE6",
-        "sha256": "C2772438795E34D3C3034928C878A4F4341F98D3805088A03ED2321D114FFDE9"
+        "sha1": "8583E42E31AD5D75E85A9C4330B7C4E90A0EDE7D",
+        "sha256": "C1D2058E0AF0BF9986C86766EE02BB8440197242A17F7D48F548695134771BC6"
     },
     "download_content_type": "application/zip",
-    "install_size": 4725822,
-    "release_date": "2026-01-11T19:10:25Z",
+    "install_size": 4668669,
+    "release_date": "2026-04-01T21:01:10Z",
     "x_generated_by": "netkan"
 }
