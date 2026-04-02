@@ -23,7 +23,7 @@
     ],
     "provides": [
         "RealSolarSystem",
-        "RP1-ExpressInstall-Graphics"
+        "RP-1-ExpressInstall-Graphics"
     ],
     "depends": [
         {
