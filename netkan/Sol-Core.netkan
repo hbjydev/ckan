@@ -22,6 +22,7 @@ depends:
   - name: ParallaxContinued
   - name: KSPTextureLoader
   - name: AdvancedPQSTools
+    min_version: 'v1.6.0'
   - name: BurstPQS
   - name: KSPCommunityFixes
   - name: KSCSwitcher
