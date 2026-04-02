@@ -4,7 +4,8 @@
     "name": "Sol Visuals",
     "abstract": "EVE & Scatterer configs for Sol",
     "author": [
-        "ballisticfox"
+        "ballisticfox",
+        "Charon_S"
     ],
     "version": "V0.9.5-0",
     "ksp_version_min": "1.12",

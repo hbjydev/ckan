@@ -4,6 +4,7 @@ abstract: The next generation of RSS-Reborn
 license: restricted
 author:
   - ballisticfox
+  - Charon_S
 $kref: '#/ckan/github/RSS-Reborn/Sol-Configs/asset_match/Sol_Configs-.*\.zip'
 release_status: stable
 resources:

@@ -4,6 +4,7 @@ abstract: EVE & Scatterer configs for Sol
 license: restricted
 author:
   - ballisticfox
+  - Charon_S
 $kref: '#/ckan/github/RSS-Reborn/Sol-Visuals/asset_match/Sol_Visuals-.*\.zip'
 release_status: stable
 resources:

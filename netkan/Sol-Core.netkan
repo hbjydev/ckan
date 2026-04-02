@@ -4,6 +4,7 @@ abstract: Core Textures and Sounds for Sol
 license: restricted
 author:
   - ballisticfox
+  - Charon_S
 $kref: '#/ckan/github/RSS-Reborn/Sol-Core/asset_match/Sol_Core-.*\.zip'
 release_status: stable
 resources:
@@ -48,3 +49,4 @@ conflicts:
   - name: RealSolarSystem
 provides:
   - RealSolarSystem
+  - RP1-ExpressInstall-Graphics
