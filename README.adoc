@@ -43,10 +43,6 @@ to run the Sol planet pack, you still need to do some things yourself. Namely,
 this repository does not provide the following:
 
 - Advanced PQS Tools v1.6.0 (install via the Versions tab for the mod in CKAN)
-- KSP Texture Loader's modifications to Parallax Continued
-  (https://github.com/Phantomical/KSPTextureLoader/releases/latest[Download],
-  use the `ParallaxContinued.zip` file and extract it over your existing copy
-  of Parallax Continued)
 - Blackrack's Volumetric Clouds v5 (https://www.patreon.com/c/blackrack[Patreon])
 
 == Updating the CKAN packages
