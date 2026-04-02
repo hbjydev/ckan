@@ -1,0 +1,55 @@
+{
+    "spec_version": 1,
+    "identifier": "Sol-MarsSystem-8k",
+    "name": "Sol MarsSystem Textures (8k)",
+    "abstract": "The next generation of RSS-Reborn",
+    "author": [
+        "ballisticfox"
+    ],
+    "version": "V0.9.5-0",
+    "ksp_version_min": "1.12",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+        "repository": "https://github.com/RSS-Reborn/Sol-MarsSystem",
+        "bugtracker": "https://github.com/RSS-Reborn/Sol-MarsSystem/issues",
+        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Sol-MarsSystem"
+    ],
+    "depends": [
+        {
+            "name": "Sol-Core"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Sol-MarsSystem-4k"
+        },
+        {
+            "name": "Sol-MarsSystem-16k"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Sol-Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/RSS-Reborn/Sol-MarsSystem/releases/download/V0.9.5-0/Sol_Mars-System_8k.zip",
+    "download_size": 419769785,
+    "download_hash": {
+        "sha1": "A162321E9D82B33CEBE28294D717D8A999D7BE40",
+        "sha256": "5392B80C3187881FA6F0FB21367FDE6D6A672E1A0FCA3CCB5D2DD918DCB2FCA9"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 540366296,
+    "release_date": "2026-04-01T21:07:44Z",
+    "x_generated_by": "netkan"
+}

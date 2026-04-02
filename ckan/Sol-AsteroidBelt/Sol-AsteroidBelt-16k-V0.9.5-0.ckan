@@ -1,0 +1,55 @@
+{
+    "spec_version": 1,
+    "identifier": "Sol-AsteroidBelt-16k",
+    "name": "Sol AsteroidBelt Textures (16k)",
+    "abstract": "The next generation of RSS-Reborn",
+    "author": [
+        "ballisticfox"
+    ],
+    "version": "V0.9.5-0",
+    "ksp_version_min": "1.12",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+        "repository": "https://github.com/RSS-Reborn/Sol-AsteroidBelt",
+        "bugtracker": "https://github.com/RSS-Reborn/Sol-AsteroidBelt/issues",
+        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Sol-AsteroidBelt"
+    ],
+    "depends": [
+        {
+            "name": "Sol-Core"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Sol-AsteroidBelt-4k"
+        },
+        {
+            "name": "Sol-AsteroidBelt-8k"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Sol-Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/RSS-Reborn/Sol-AsteroidBelt/releases/download/V0.9.5-0/Sol_Asteroid-Belt_16k.zip",
+    "download_size": 1526880402,
+    "download_hash": {
+        "sha1": "90DE4ACE6F552C4E821AFBEBF8CA64FB6BC46BD7",
+        "sha256": "C90E9EE9938857CD24A1260D4E176EA691372410AB46A12FE233552E23E9C142"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2142412136,
+    "release_date": "2026-04-01T04:42:40Z",
+    "x_generated_by": "netkan"
+}

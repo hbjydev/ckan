@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "Sol-Configs",
+    "name": "Sol Configs",
+    "abstract": "The next generation of RSS-Reborn",
+    "author": [
+        "ballisticfox"
+    ],
+    "version": "V0.9.3-1",
+    "ksp_version_min": "1.12",
+    "ksp_version_max": "1.12",
+    "license": "restricted",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://github.com/rss-reborn/sol-configs/wiki",
+        "repository": "https://github.com/rss-reborn/sol-configs",
+        "bugtracker": "https://github.com/RSS-Reborn/Sol-Configs/issues",
+        "manual": "https://github.com/rss-reborn/sol-configs/wiki"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "localizations": [
+        "en-us",
+        "fr-fr",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Sol-Core"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Sol-Configs",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/000_NiakoUtils",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/RSS-Reborn/Sol-Configs/releases/download/V0.9.3-1/Sol-Configs-V0.9.3-1.zip",
+    "download_size": 2499596,
+    "download_hash": {
+        "sha256": "C2772438795E34D3C3034928C878A4F4341F98D3805088A03ED2321D114FFDE9"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 4725822,
+    "release_date": "2026-01-11T19:10:25Z",
+    "x_generated_by": "netkan"
+}

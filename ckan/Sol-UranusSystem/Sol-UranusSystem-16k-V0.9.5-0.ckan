@@ -1,0 +1,55 @@
+{
+    "spec_version": 1,
+    "identifier": "Sol-UranusSystem-16k",
+    "name": "Sol UranusSystem Textures (16k)",
+    "abstract": "The next generation of RSS-Reborn",
+    "author": [
+        "ballisticfox"
+    ],
+    "version": "V0.9.5-0",
+    "ksp_version_min": "1.12",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+        "repository": "https://github.com/RSS-Reborn/Sol-UranusSystem",
+        "bugtracker": "https://github.com/RSS-Reborn/Sol-UranusSystem/issues",
+        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Sol-UranusSystem"
+    ],
+    "depends": [
+        {
+            "name": "Sol-Core"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Sol-UranusSystem-4k"
+        },
+        {
+            "name": "Sol-UranusSystem-8k"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Sol-Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/RSS-Reborn/Sol-UranusSystem/releases/download/V0.9.5-0/Sol_Uranus-System_16k.zip",
+    "download_size": 624519236,
+    "download_hash": {
+        "sha1": "57F09C33B32DE332A0BB6A58A5272750810743BF",
+        "sha256": "CC0EB3B93123B96B9C1FA77E3DA89672739FA4A2E6071B815D63B00D15D8FD3A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 789277560,
+    "release_date": "2026-04-01T04:19:28Z",
+    "x_generated_by": "netkan"
+}

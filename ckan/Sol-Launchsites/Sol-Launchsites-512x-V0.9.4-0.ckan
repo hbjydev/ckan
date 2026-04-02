@@ -1,0 +1,55 @@
+{
+    "spec_version": 1,
+    "identifier": "Sol-Launchsites-512x",
+    "name": "Sol Launchsites Textures (512x)",
+    "abstract": "The next generation of RSS-Reborn",
+    "author": [
+        "ballisticfox"
+    ],
+    "version": "V0.9.4-0",
+    "ksp_version_min": "1.12",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+        "repository": "https://github.com/RSS-Reborn/Sol-Launchsites",
+        "bugtracker": "https://github.com/RSS-Reborn/Sol-Launchsites/issues",
+        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Sol-Launchsites"
+    ],
+    "depends": [
+        {
+            "name": "Sol-Core"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Sol-Launchsites-256x"
+        },
+        {
+            "name": "Sol-Launchsites-1024x"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Sol-Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/RSS-Reborn/Sol-LaunchSites/releases/download/V0.9.4-0/Launchsites-512x.zip",
+    "download_size": 75729084,
+    "download_hash": {
+        "sha1": "02B550F7C9038F266DF85131A3F6DF4163DF7F49",
+        "sha256": "AA09AFA9D5C7FB26282798F3EE30BFF7B796495AE74692380ECDEE4A757BB4E9"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 116719940,
+    "release_date": "2026-03-09T03:13:31Z",
+    "x_generated_by": "netkan"
+}

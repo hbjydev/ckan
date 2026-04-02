@@ -1,0 +1,23 @@
+identifier: KSPTextureLoader-Parallax
+name: Parallax Continued (KTL Fork)
+abstract: A modification to Parallax Continued for Sol
+license: MIT
+author:
+  - Phantomical
+$kref: '#/ckan/github/Phantomical/KSPTextureLoader/asset_match/ParallaxContinued.zip'
+release_status: testing
+resources:
+  bugtracker: https://github.com/Phantomical/KSPTextureLoader/issues
+  manual: https://github.com/Phantomical/KSPTextureLoader/wiki
+  homepage: https://github.com/Phantomical/KSPTextureLoader
+  repository: https://github.com/Phantomical/KSPTextureLoader
+ksp_version_min: '1.12'
+ksp_version_max: '1.12'
+install:
+  - file: GameData/ParallaxContinued
+    install_to: GameData
+depends:
+  - name: ParallaxContinued
+tags:
+  - plugin
+  - graphics

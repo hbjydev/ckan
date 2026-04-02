@@ -23,6 +23,7 @@ MODULES = [
 STANDALONE = [
     ("ckan/Sol-Configs", "netkan/Sol-Configs.netkan"),
     ("ckan/Sol-Core", "netkan/Sol-Core.netkan"),
+    ("ckan/KSPTextureLoader-Parallax", "netkan/KSPTextureLoader-Parallax.netkan"),
 ]
 
 
@@ -66,7 +67,9 @@ install:
   - file: GameData/Sol-Textures
     install_to: GameData
 provides:
-  - Sol-{name}"""
+  - Sol-{name}
+depends:
+  - name: Sol-Core"""
 
         if conflicts:
             template += "\nconflicts:\n  - name: " + "\n  - name: ".join(conflicts)

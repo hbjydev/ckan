@@ -1,0 +1,55 @@
+{
+    "spec_version": 1,
+    "identifier": "Sol-KuiperBelt-16k",
+    "name": "Sol KuiperBelt Textures (16k)",
+    "abstract": "The next generation of RSS-Reborn",
+    "author": [
+        "ballisticfox"
+    ],
+    "version": "V0.9.5-0",
+    "ksp_version_min": "1.12",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+        "repository": "https://github.com/RSS-Reborn/Sol-KuiperBelt",
+        "bugtracker": "https://github.com/RSS-Reborn/Sol-KuiperBelt/issues",
+        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Sol-KuiperBelt"
+    ],
+    "depends": [
+        {
+            "name": "Sol-Core"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Sol-KuiperBelt-4k"
+        },
+        {
+            "name": "Sol-KuiperBelt-8k"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Sol-Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/RSS-Reborn/Sol-KuiperBelt/releases/download/V0.9.5-0/Sol_Kuiper-Belt_16k.zip",
+    "download_size": 1035274970,
+    "download_hash": {
+        "sha1": "A6986F2EC63A0CE52A574D0DBEFFE7899EB8A817",
+        "sha256": "769B797AA6B07E89D35F70B865D501CCFD959C44AAFD970D58BE001AC041E2A7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1463704614,
+    "release_date": "2026-04-01T04:27:09Z",
+    "x_generated_by": "netkan"
+}

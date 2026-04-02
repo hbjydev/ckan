@@ -1,6 +1,7 @@
 identifier: Sol-Core
 name: Sol Core
 abstract: The next generation of RSS-Reborn
+license: restricted
 author:
   - ballisticfox
 $kref: '#/ckan/github/RSS-Reborn/Sol-Core/asset_match/Sol_Core-.*\.zip'
@@ -18,7 +19,9 @@ depends:
   - name: Kopernicus
   - name: ParallaxContinued
   - name: KSPTextureLoader
+  - name: KSPTextureLoader-Parallax
   - name: AdvancedPQSTools
+  - name: KSPCommunityFixes
   - name: Sol-Configs
   - name: Sol-LaunchSites
   - name: Sol-Sun
@@ -32,6 +35,9 @@ depends:
   - name: Sol-NeptuneSystem
   - name: Sol-AsteroidBelt
   - name: Sol-KuiperBelt
+tags:
+  - config
+  - planet-pack
 conflicts:
   - name: RealSolarSystem
 provides:

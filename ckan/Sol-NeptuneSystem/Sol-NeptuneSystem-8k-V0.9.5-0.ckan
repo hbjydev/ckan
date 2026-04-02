@@ -1,0 +1,55 @@
+{
+    "spec_version": 1,
+    "identifier": "Sol-NeptuneSystem-8k",
+    "name": "Sol NeptuneSystem Textures (8k)",
+    "abstract": "The next generation of RSS-Reborn",
+    "author": [
+        "ballisticfox"
+    ],
+    "version": "V0.9.5-0",
+    "ksp_version_min": "1.12",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+        "repository": "https://github.com/RSS-Reborn/Sol-NeptuneSystem",
+        "bugtracker": "https://github.com/RSS-Reborn/Sol-NeptuneSystem/issues",
+        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Sol-NeptuneSystem"
+    ],
+    "depends": [
+        {
+            "name": "Sol-Core"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Sol-NeptuneSystem-4k"
+        },
+        {
+            "name": "Sol-NeptuneSystem-16k"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Sol-Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/RSS-Reborn/Sol-NeptuneSystem/releases/download/V0.9.5-0/Sol_Neptune-System_8k.zip",
+    "download_size": 341764133,
+    "download_hash": {
+        "sha1": "07D9BA7EDD3B851BF1272C66A513E463767F92A2",
+        "sha256": "DEEDB2EF0C1AB4E89CD197A6DB41AFD538C2E934F8FA5A94C0A070D27529C2DF"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 496311032,
+    "release_date": "2026-04-01T03:38:30Z",
+    "x_generated_by": "netkan"
+}

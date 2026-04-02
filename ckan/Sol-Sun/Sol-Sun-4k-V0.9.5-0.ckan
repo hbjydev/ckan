@@ -1,0 +1,55 @@
+{
+    "spec_version": 1,
+    "identifier": "Sol-Sun-4k",
+    "name": "Sol Sun Textures (4k)",
+    "abstract": "The next generation of RSS-Reborn",
+    "author": [
+        "ballisticfox"
+    ],
+    "version": "V0.9.5-0",
+    "ksp_version_min": "1.12",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+        "repository": "https://github.com/RSS-Reborn/Sol-Sun",
+        "bugtracker": "https://github.com/RSS-Reborn/Sol-Sun/issues",
+        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Sol-Sun"
+    ],
+    "depends": [
+        {
+            "name": "Sol-Core"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Sol-Sun-8k"
+        },
+        {
+            "name": "Sol-Sun-16k"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Sol-Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/RSS-Reborn/Sol-Sun/releases/download/V0.9.5-0/Sol_Sol_4k.zip",
+    "download_size": 12230291,
+    "download_hash": {
+        "sha1": "E4C69BDF1CBF8A2A40B43A634311DC1758684045",
+        "sha256": "09E57ECCFB3C8E2E1FE30A944BB5CF18D5D7A83075C5F5F74738C872B8F8CA05"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 17470870,
+    "release_date": "2026-04-01T03:00:19Z",
+    "x_generated_by": "netkan"
+}

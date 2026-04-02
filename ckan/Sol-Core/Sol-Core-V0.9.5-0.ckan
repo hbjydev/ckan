@@ -1,0 +1,105 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "Sol-Core",
+    "name": "Sol Core",
+    "abstract": "The next generation of RSS-Reborn",
+    "author": [
+        "ballisticfox"
+    ],
+    "version": "V0.9.5-0",
+    "ksp_version_min": "1.12",
+    "license": "restricted",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://github.com/rss-reborn/sol-configs/wiki",
+        "repository": "https://github.com/rss-reborn/sol-core",
+        "bugtracker": "https://github.com/RSS-Reborn/Sol-Core/issues",
+        "manual": "https://github.com/rss-reborn/sol-configs/wiki"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "RealSolarSystem"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ParallaxContinued"
+        },
+        {
+            "name": "KSPTextureLoader"
+        },
+        {
+            "name": "KSPTextureLoader-Parallax"
+        },
+        {
+            "name": "AdvancedPQSTools"
+        },
+        {
+            "name": "KSPCommunityFixes"
+        },
+        {
+            "name": "Sol-Configs"
+        },
+        {
+            "name": "Sol-LaunchSites"
+        },
+        {
+            "name": "Sol-Sun"
+        },
+        {
+            "name": "Sol-Mercury"
+        },
+        {
+            "name": "Sol-Venus"
+        },
+        {
+            "name": "Sol-EarthSystem"
+        },
+        {
+            "name": "Sol-MarsSystem"
+        },
+        {
+            "name": "Sol-JupiterSystem"
+        },
+        {
+            "name": "Sol-SaturnSystem"
+        },
+        {
+            "name": "Sol-UranusSystem"
+        },
+        {
+            "name": "Sol-NeptuneSystem"
+        },
+        {
+            "name": "Sol-AsteroidBelt"
+        },
+        {
+            "name": "Sol-KuiperBelt"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealSolarSystem"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Sol-Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/RSS-Reborn/Sol-Core/releases/download/V0.9.5-0/Sol_Core-V0.9.5.zip",
+    "download_size": 160349494,
+    "download_hash": {
+        "sha256": "9F5A8B7164DE76B1DA2C81D6D5212DD2841DBE17002AC1FEA2FF947B8AE3FA0D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 206306887,
+    "release_date": "2026-04-01T02:04:44Z",
+    "x_generated_by": "netkan"
+}
