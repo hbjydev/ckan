@@ -24,6 +24,7 @@ MODULES = [
 ]
 
 STANDALONE = [
+    ("ckan/ParallaxContinued-KTL", "netkan/ParallaxContinued-KTL.netkan"),
     ("ckan/Sol-Configs", "netkan/Sol-Configs.netkan"),
     ("ckan/Sol-Core", "netkan/Sol-Core.netkan"),
     ("ckan/Sol-Visuals", "netkan/Sol-Visuals.netkan"),
@@ -71,7 +72,8 @@ abstract: {repo_response.get('description', f'The {variant} textures for Sol {na
 license: restricted
 author:
   - ballisticfox
-$kref: '#/ckan/github/RSS-Reborn/Sol-{name}/asset_match/{zip_name}{variant}.zip'
+  - Charon_S
+$kref: '#/ckan/github/RSS-Reborn/Sol-{name}/asset_match/{zip_name}{variant}\\.(zip|7z)'
 release_status: stable
 resources:
   bugtracker: https://github.com/RSS-Reborn/Sol-{name}/issues

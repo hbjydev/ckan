@@ -36,7 +36,7 @@
             "name": "Harmony2"
         },
         {
-            "name": "ParallaxContinued"
+            "name": "ParallaxContinued-KTL"
         },
         {
             "name": "KSPTextureLoader"
@@ -60,43 +60,55 @@
             "name": "Sol-Configs"
         },
         {
-            "name": "Sol-Launchsites"
-        },
-        {
-            "name": "Sol-Sun"
-        },
-        {
-            "name": "Sol-Mercury"
-        },
-        {
-            "name": "Sol-Venus"
-        },
-        {
-            "name": "Sol-EarthSystem"
-        },
-        {
-            "name": "Sol-MarsSystem"
-        },
-        {
-            "name": "Sol-JupiterSystem"
-        },
-        {
-            "name": "Sol-SaturnSystem"
-        },
-        {
-            "name": "Sol-UranusSystem"
-        },
-        {
-            "name": "Sol-NeptuneSystem"
-        },
-        {
-            "name": "Sol-AsteroidBelt"
-        },
-        {
-            "name": "Sol-KuiperBelt"
-        },
-        {
             "name": "Sol-Visuals"
+        },
+        {
+            "name": "Sol-Launchsites",
+            "choice_help_text": "Choose the texture quality for the launch sites. Higher qualities will require more powerful hardware."
+        },
+        {
+            "name": "Sol-Sun",
+            "choice_help_text": "Choose the texture quality for the Sun. Higher qualities will require more powerful hardware."
+        },
+        {
+            "name": "Sol-Mercury",
+            "choice_help_text": "Choose the texture quality for Mercury. Higher qualities will require more powerful hardware."
+        },
+        {
+            "name": "Sol-Venus",
+            "choice_help_text": "Choose the texture quality for Venus. Higher qualities will require more powerful hardware."
+        },
+        {
+            "name": "Sol-EarthSystem",
+            "choice_help_text": "Choose the texture quality for Earth. Higher qualities will require more powerful hardware."
+        },
+        {
+            "name": "Sol-MarsSystem",
+            "choice_help_text": "Choose the texture quality for Mars. Higher qualities will require more powerful hardware."
+        },
+        {
+            "name": "Sol-JupiterSystem",
+            "choice_help_text": "Choose the texture quality for Jupiter. Higher qualities will require more powerful hardware."
+        },
+        {
+            "name": "Sol-SaturnSystem",
+            "choice_help_text": "Choose the texture quality for Saturn. Higher qualities will require more powerful hardware."
+        },
+        {
+            "name": "Sol-UranusSystem",
+            "choice_help_text": "Choose the texture quality for Uranus. Higher qualities will require more powerful hardware."
+        },
+        {
+            "name": "Sol-NeptuneSystem",
+            "choice_help_text": "Choose the texture quality for Neptune. Higher qualities will require more powerful hardware."
+        },
+        {
+            "name": "Sol-AsteroidBelt",
+            "choice_help_text": "Choose the texture quality for asteroid belts. Higher qualities will require more powerful hardware."
+        },
+        {
+            "name": "Sol-KuiperBelt",
+            "choice_help_text": "Choose the texture quality for the Kuiper Belt. Higher qualities will require more powerful hardware."
         }
     ],
     "conflicts": [
