@@ -58,7 +58,19 @@ copy of `netkan.exe`.
 
 If you run into GitHub rate limit issues, you can set the `GITHUB_TOKEN` env
 var to a Personal Access Token, which should increase your rate limit
-significantly.
+significantly. You only need to create a read-only public token here, no
+additional scopes are needed when using fine-grained access tokens for this.
+
+On Windows, to set these environment variables, do:
+
+[source,pwsh]
+----
+$env:NETKAN_PATH = "C:\path\to\netkan.exe"
+$env:GITHUB_TOKEN = "<github pat here>"
+----
+
+Linux is currently unsupported, but I intend to replace netkan with a
+cross-platform script that does what netkan does purely in Python.
 
 == License
 
