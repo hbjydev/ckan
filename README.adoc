@@ -34,6 +34,20 @@ ckan repo add hbjydev https://github.com/hbjydev/ckan/archive/main.tar.gz
 ----
 ====
 
+== Modset Notes
+
+=== Sol
+
+While this repo provides CKAN configs for most of the modifications necessary
+to run the Sol planet pack, you still need to do some things yourself. Namely,
+this repository does not provide the following:
+
+- KSP Texture Loader's modifications to Parallax Continued
+  (https://github.com/Phantomical/KSPTextureLoader/releases/latest[Download],
+  use the `ParallaxContinued.zip` file and extract it over your existing copy
+  of Parallax Continued)
+- Blackrack's Volumetric Clouds v5 (https://www.patreon.com/c/blackrack[Patreon])
+
 == Updating the CKAN packages
 
 There is a file:./gen_ckan.py[simple script] to update the CKAN package set in
