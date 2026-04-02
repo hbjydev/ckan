@@ -94,9 +94,7 @@
         },
         {
             "name": "Sol-KuiperBelt"
-        }
-    ],
-    "recommends": [
+        },
         {
             "name": "Sol-Visuals"
         }

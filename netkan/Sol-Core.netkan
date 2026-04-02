@@ -40,7 +40,6 @@ depends:
   - name: Sol-NeptuneSystem
   - name: Sol-AsteroidBelt
   - name: Sol-KuiperBelt
-recommends:
   - name: Sol-Visuals
 tags:
   - config
