@@ -24,6 +24,7 @@ depends:
 provides:
   - EnvironmentalVisualEnhancements-Config
   - EnvironmentalVisualEnhancements-Config-sol
+  - Scatterer-config
   - Scatterer-sunflare
 tags:
   - config
