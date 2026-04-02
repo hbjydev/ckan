@@ -5,7 +5,7 @@ license: MIT
 author:
   - Phantomical
 $kref: '#/ckan/github/Phantomical/KSPTextureLoader/asset_match/ParallaxContinued.zip'
-release_status: testing
+release_status: stable
 resources:
   bugtracker: https://github.com/Phantomical/KSPTextureLoader/issues
   manual: https://github.com/Phantomical/KSPTextureLoader/wiki

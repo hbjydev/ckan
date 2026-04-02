@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.36",
+    "spec_version": 1,
     "identifier": "Sol-Configs",
     "name": "Sol Configs",
     "abstract": "The next generation of RSS-Reborn",
@@ -10,7 +10,7 @@
     "ksp_version_min": "1.12",
     "ksp_version_max": "1.12",
     "license": "restricted",
-    "release_status": "testing",
+    "release_status": "stable",
     "resources": {
         "homepage": "https://github.com/rss-reborn/sol-configs/wiki",
         "repository": "https://github.com/rss-reborn/sol-configs",
@@ -48,6 +48,7 @@
     "download": "https://github.com/RSS-Reborn/Sol-Configs/releases/download/V0.9.3-1/Sol-Configs-V0.9.3-1.zip",
     "download_size": 2499596,
     "download_hash": {
+        "sha1": "F556BBD9045C93156D07D69B8550BED86BBDEFE6",
         "sha256": "C2772438795E34D3C3034928C878A4F4341F98D3805088A03ED2321D114FFDE9"
     },
     "download_content_type": "application/zip",

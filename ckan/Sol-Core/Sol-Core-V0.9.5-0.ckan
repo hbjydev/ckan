@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.36",
+    "spec_version": 1,
     "identifier": "Sol-Core",
     "name": "Sol Core",
     "abstract": "The next generation of RSS-Reborn",
@@ -9,7 +9,7 @@
     "version": "V0.9.5-0",
     "ksp_version_min": "1.12",
     "license": "restricted",
-    "release_status": "testing",
+    "release_status": "stable",
     "resources": {
         "homepage": "https://github.com/rss-reborn/sol-configs/wiki",
         "repository": "https://github.com/rss-reborn/sol-core",
@@ -96,6 +96,7 @@
     "download": "https://github.com/RSS-Reborn/Sol-Core/releases/download/V0.9.5-0/Sol_Core-V0.9.5.zip",
     "download_size": 160349494,
     "download_hash": {
+        "sha1": "E06FED02CFBDA2C7B06713CCFF78834E871CD1D0",
         "sha256": "9F5A8B7164DE76B1DA2C81D6D5212DD2841DBE17002AC1FEA2FF947B8AE3FA0D"
     },
     "download_content_type": "application/zip",

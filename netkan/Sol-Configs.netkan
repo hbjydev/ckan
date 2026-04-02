@@ -5,7 +5,7 @@ license: restricted
 author:
   - ballisticfox
 $kref: '#/ckan/github/RSS-Reborn/Sol-Configs/asset_match/Sol-Configs-.*\.zip'
-release_status: testing
+release_status: stable
 resources:
   bugtracker: https://github.com/RSS-Reborn/Sol-Configs/issues
   manual: https://github.com/rss-reborn/sol-configs/wiki
