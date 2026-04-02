@@ -31,7 +31,7 @@ jobs:
           NETKAN_PATH: ${{ github.workspace }}\netkan.exe
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          python gen_all.py
+          python gen_ckan.py
 
       - name: Check for changes
         id: changes
