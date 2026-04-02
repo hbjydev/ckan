@@ -20,6 +20,10 @@
         "config",
         "planet-pack"
     ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "EnvironmentalVisualEnhancements-Config-sol"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
