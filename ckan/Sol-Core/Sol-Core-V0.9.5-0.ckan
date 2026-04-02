@@ -2,7 +2,7 @@
     "spec_version": 1,
     "identifier": "Sol-Core",
     "name": "Sol Core",
-    "abstract": "The next generation of RSS-Reborn",
+    "abstract": "Core Textures and Sounds for Sol",
     "author": [
         "ballisticfox"
     ],
@@ -28,6 +28,12 @@
             "name": "Kopernicus"
         },
         {
+            "name": "KSPBurst"
+        },
+        {
+            "name": "Harmony2"
+        },
+        {
             "name": "ParallaxContinued"
         },
         {
@@ -37,7 +43,16 @@
             "name": "AdvancedPQSTools"
         },
         {
+            "name": "BurstPQS"
+        },
+        {
             "name": "KSPCommunityFixes"
+        },
+        {
+            "name": "KSCSwitcher"
+        },
+        {
+            "name": "TextureReplacer"
         },
         {
             "name": "Sol-Configs"
@@ -77,6 +92,11 @@
         },
         {
             "name": "Sol-KuiperBelt"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Sol-Visuals"
         }
     ],
     "conflicts": [

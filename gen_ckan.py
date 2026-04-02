@@ -1,6 +1,9 @@
+import json
 import os
 import subprocess
 import sys
+
+from urllib.request import Request, urlopen
 
 NETKAN = os.environ.get("NETKAN_PATH", r"C:\Users\Hayden\Downloads\netkan.exe")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -23,6 +26,7 @@ MODULES = [
 STANDALONE = [
     ("ckan/Sol-Configs", "netkan/Sol-Configs.netkan"),
     ("ckan/Sol-Core", "netkan/Sol-Core.netkan"),
+    ("ckan/Sol-Visuals", "netkan/Sol-Visuals.netkan"),
 ]
 
 
@@ -41,13 +45,29 @@ def run_netkan(outputdir, netkan_path):
 
 def generate_netkan(name, zip_name, variants):
     ok = True
+
+    headers = {
+        "Accept": "application/vnd.github.v3+json",
+        "X-GitHub-Api-Version": "2026-03-10",
+    }
+
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+
+    repo_request = Request(
+        url=f"https://api.github.com/repos/RSS-Reborn/Sol-{name}",
+        headers=headers,
+        method="GET",
+    )
+    repo_response = json.loads(urlopen(repo_request, timeout=5).read().decode('utf-8'))
+
     for variant in variants:
         netkan_path = f"netkan/sol-{name.lower()}/Sol-{name}-{variant}.netkan"
         conflicts = [f"Sol-{name}-{v}" for v in variants if v != variant]
 
         template = f"""identifier: Sol-{name}-{variant}
 name: Sol {name} Textures ({variant})
-abstract: The next generation of RSS-Reborn
+abstract: {repo_response.get('description', f'The {variant} textures for Sol {name}.')}
 license: restricted
 author:
   - ballisticfox

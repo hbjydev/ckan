@@ -1,6 +1,6 @@
 identifier: Sol-Core
 name: Sol Core
-abstract: The next generation of RSS-Reborn
+abstract: Core Textures and Sounds for Sol
 license: restricted
 author:
   - ballisticfox
@@ -17,10 +17,15 @@ install:
     install_to: GameData
 depends:
   - name: Kopernicus
+  - name: KSPBurst
+  - name: Harmony2
   - name: ParallaxContinued
   - name: KSPTextureLoader
   - name: AdvancedPQSTools
+  - name: BurstPQS
   - name: KSPCommunityFixes
+  - name: KSCSwitcher
+  - name: TextureReplacer
   - name: Sol-Configs
   - name: Sol-Launchsites
   - name: Sol-Sun
@@ -34,6 +39,8 @@ depends:
   - name: Sol-NeptuneSystem
   - name: Sol-AsteroidBelt
   - name: Sol-KuiperBelt
+recommends:
+  - name: Sol-Visuals
 tags:
   - config
   - planet-pack

@@ -1,0 +1,29 @@
+identifier: Sol-Visuals
+name: Sol Visuals
+abstract: EVE & Scatterer configs for Sol
+license: restricted
+author:
+  - ballisticfox
+$kref: '#/ckan/github/RSS-Reborn/Sol-Visuals/asset_match/Sol_Visuals-.*\.zip'
+release_status: stable
+resources:
+  bugtracker: https://github.com/RSS-Reborn/Sol-Visuals/issues
+  manual: https://github.com/RSS-Reborn/Sol-Configs/wiki
+  homepage: https://github.com/RSS-Reborn/Sol-Configs/wiki
+  repository: https://github.com/RSS-Reborn/Sol-Visuals
+ksp_version_min: '1.12'
+install:
+  - file: GameData/Sol-Visuals
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: Sol-Core
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+tags:
+  - config
+  - planet-pack
+conflicts:
+  - name: RealSolarSystem
+provides:
+  - RealSolarSystem
