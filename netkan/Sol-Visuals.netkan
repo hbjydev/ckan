@@ -23,7 +23,3 @@ depends:
 tags:
   - config
   - planet-pack
-conflicts:
-  - name: RealSolarSystem
-provides:
-  - RealSolarSystem
