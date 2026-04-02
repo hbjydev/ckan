@@ -23,6 +23,7 @@ depends:
 provides:
   - EnvironmentalVisualEnhancements-Config
   - EnvironmentalVisualEnhancements-Config-sol
+  - Scatterer-sunflare
 tags:
   - config
   - planet-pack

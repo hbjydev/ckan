@@ -22,7 +22,8 @@
     ],
     "provides": [
         "EnvironmentalVisualEnhancements-Config",
-        "EnvironmentalVisualEnhancements-Config-sol"
+        "EnvironmentalVisualEnhancements-Config-sol",
+        "Scatterer-sunflare"
     ],
     "depends": [
         {
