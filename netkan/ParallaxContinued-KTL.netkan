@@ -28,6 +28,7 @@ depends:
   - name: ParallaxContinued-Terrain-Textures
   - name: ParallaxContinued-Scatter-Textures
   - name: ParallaxContinued-Planet-Textures
+  - name: KSPTextureLoader
 recommends:
   - name: Deferred
 conflicts:

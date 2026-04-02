@@ -42,6 +42,9 @@
         },
         {
             "name": "ParallaxContinued-Planet-Textures"
+        },
+        {
+            "name": "KSPTextureLoader"
         }
     ],
     "recommends": [
