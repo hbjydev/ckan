@@ -73,7 +73,7 @@ license: restricted
 author:
   - ballisticfox
   - Charon_S
-$kref: '#/ckan/github/RSS-Reborn/Sol-{name}/asset_match/{zip_name}{variant}\\.(zip|7z)'
+$kref: '#/ckan/github/RSS-Reborn/Sol-{name}/asset_match/{zip_name}{variant}(\\-[0-9]+)?\\.zip'
 release_status: stable
 resources:
   bugtracker: https://github.com/RSS-Reborn/Sol-{name}/issues
