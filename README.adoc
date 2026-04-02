@@ -1,0 +1,57 @@
+:showtitle:
+:toc: left
+:icons: font
+
+= Hayden's CKAN Repository
+
+My CKAN repo for mods I wish were already in the official repo.
+
+== Installation
+
+.With the CKAN GUI (recommended)
+[%collapsible]
+====
+1. Open CKAN, go to Settings -> CKAN Settings.
+2. Under "Metadata Repositories", click "New".
+3. In the "Name" field, type "HaydensCKAN".
+4. In the "URL" field, type `https://github.com/hbjydev/ckan/archive/main.tar.gz`.
+5. Click "Add".
+6. Close the CKAN settings window.
+
+Your CKAN repository data should now refresh, and the mods I have netkan
+configs for will now appear in the available mods list.
+====
+
+.With the CKAN CLI
+[%collapsible]
+====
+To add this repository to your CKAN install using the command-line, run the
+following:
+
+[source,bash]
+----
+ckan repo add hbjydev https://github.com/hbjydev/ckan/archive/main.tar.gz
+----
+====
+
+== Updating the CKAN packages
+
+There is a file:./gen_ckan.py[simple script] to update the CKAN package set in
+this repository. The script also holds configurations for which packages to
+build.
+
+To run this script, just run `python ./gen_ckan.py`.
+
+You will need to set the `NETKAN_PATH` environment variable to the path to your
+copy of `netkan.exe`.
+
+If you run into GitHub rate limit issues, you can set the `GITHUB_TOKEN` env
+var to a Personal Access Token, which should increase your rate limit
+significantly.
+
+== License
+
+This repository (and the configs within it) is licensed under the
+file:./LICENSE[Apache 2.0 License]. However, the mods this repository provides
+`.ckan` packages for have their own licenses, and you should check those
+licenses separately from this repository.
