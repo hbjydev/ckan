@@ -19,7 +19,6 @@ depends:
   - name: Kopernicus
   - name: ParallaxContinued
   - name: KSPTextureLoader
-  - name: KSPTextureLoader-Parallax
   - name: AdvancedPQSTools
   - name: KSPCommunityFixes
   - name: Sol-Configs

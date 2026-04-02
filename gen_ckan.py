@@ -23,7 +23,6 @@ MODULES = [
 STANDALONE = [
     ("ckan/Sol-Configs", "netkan/Sol-Configs.netkan"),
     ("ckan/Sol-Core", "netkan/Sol-Core.netkan"),
-    ("ckan/KSPTextureLoader-Parallax", "netkan/KSPTextureLoader-Parallax.netkan"),
 ]
 
 
