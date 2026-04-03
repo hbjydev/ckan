@@ -61,6 +61,8 @@ def run_netkan(outputdir, netkan_path):
 def generate_netkan(name, zip_name, variants):
     ok = True
     repo_data = github_api_request(f"https://api.github.com/repos/RSS-Reborn/Sol-{name}")
+    release_data = github_api_request(f"https://api.github.com/repos/RSS-Reborn/Sol-{name}/releases/latest")
+    release_status = "prerelease" if release_data.get("prerelease", False) else "stable"
 
     for variant in variants:
         netkan_path = f"netkan/sol-{name.lower()}/Sol-{name}-{variant}.netkan"
@@ -74,7 +76,7 @@ author:
   - ballisticfox
   - Charon_S
 $kref: '#/ckan/github/RSS-Reborn/Sol-{name}/asset_match/{zip_name}{variant}(\\-[0-9]+)?\\.zip'
-release_status: stable
+release_status: {release_status}
 resources:
   bugtracker: https://github.com/RSS-Reborn/Sol-{name}/issues
   manual: https://github.com/RSS-Reborn/Sol-Configs/wiki
@@ -83,7 +85,7 @@ resources:
 tags:
   - config
   - planet-pack
-ksp_version_min: '1.12'
+ksp_version: '1.12'
 install:
   - file: GameData/Sol-Textures
     install_to: GameData
