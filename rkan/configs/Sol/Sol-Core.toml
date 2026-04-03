@@ -1,0 +1,47 @@
+identifier = "Sol-Core"
+name = "Sol Core"
+abstract = "Core Textures and Sounds for Sol"
+tags = ["config", "planet-pack"]
+license = "restricted"
+authors = ["ballisticfox", "Charon_S"]
+ksp_version = "1.12"
+provides = ["RealSolarSystem", "RP-1-ExpressInstall-Graphics"]
+repo = "RSS-Reborn/Sol-Core"
+asset_match = "Sol_Core-.*\\.zip"
+
+[resources]
+manual = "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+homepage = "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+
+[[install]]
+file = "GameData/Sol-Textures"
+install_to = "GameData"
+
+[dependencies]
+Kopernicus = "*"
+KSPBurst = "*"
+Harmony2 = "*"
+ParallaxContinued-KTL = "*"
+KSPTextureLoader = "*"
+AdvancedPQSTools = "*"
+BurstPQS = "*"
+KSPCommunityFixes = "*"
+KSCSwitcher = "*"
+TextureReplacer = "*"
+Sol-Configs = "*"
+Sol-Visuals = "*"
+Sol-Launchsites = "*"
+Sol-Sun = "*"
+Sol-Mercury = "*"
+Sol-Venus = "*"
+Sol-EarthSystem = "*"
+Sol-MarsSystem = "*"
+Sol-JupiterSystem = "*"
+Sol-SaturnSystem = "*"
+Sol-UranusSystem = "*"
+Sol-NeptuneSystem = "*"
+Sol-AsteroidBelt = "*"
+Sol-KuiperBelt = "*"
+
+[conflicts]
+RealSolarSystem = "*"
