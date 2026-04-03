@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import subprocess
@@ -108,13 +109,23 @@ depends:
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Generate CKAN files")
+    parser.add_argument("names", nargs="*", help="Names of specific modules/standalone entries to update (e.g. EarthSystem Sol-Core)")
+    args = parser.parse_args()
+
+    filter_names = set(args.names)
     ok = True
 
     for name, zip_name, variants in MODULES:
+        if filter_names and name not in filter_names:
+            continue
         if not generate_netkan(name, zip_name, variants):
             ok = False
 
     for outputdir, netkan_path in STANDALONE:
+        entry_name = os.path.splitext(os.path.basename(netkan_path))[0]
+        if filter_names and entry_name not in filter_names:
+            continue
         if not run_netkan(outputdir, netkan_path):
             ok = False
 
