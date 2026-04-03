@@ -6,7 +6,7 @@ import sys
 
 from urllib.request import Request, urlopen
 
-NETKAN = os.environ.get("NETKAN_PATH", r"C:\Users\Hayden\Downloads\netkan.exe")
+NETKAN_PATH = os.environ.get("NETKAN_PATH", r"C:\Users\Hayden\Downloads\netkan.exe")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 MODULES = [
@@ -32,9 +32,22 @@ STANDALONE = [
 ]
 
 
+def github_api_request(url):
+    headers = {
+        "Accept": "application/vnd.github.v3+json",
+        "X-GitHub-Api-Version": "2026-03-10",
+    }
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+
+    request = Request(url=url, headers=headers, method="GET")
+    response = urlopen(request, timeout=5)
+    return json.loads(response.read().decode('utf-8'))
+
+
 def run_netkan(outputdir, netkan_path):
     os.makedirs(outputdir, exist_ok=True)
-    cmd = [NETKAN, "--outputdir", outputdir, netkan_path]
+    cmd = [NETKAN_PATH, "--outputdir", outputdir, netkan_path]
     if GITHUB_TOKEN:
         cmd[1:1] = ["--github-token", GITHUB_TOKEN]
     print(f"  Running netkan: {netkan_path} -> {outputdir}")
@@ -47,21 +60,7 @@ def run_netkan(outputdir, netkan_path):
 
 def generate_netkan(name, zip_name, variants):
     ok = True
-
-    headers = {
-        "Accept": "application/vnd.github.v3+json",
-        "X-GitHub-Api-Version": "2026-03-10",
-    }
-
-    if GITHUB_TOKEN:
-        headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
-
-    repo_request = Request(
-        url=f"https://api.github.com/repos/RSS-Reborn/Sol-{name}",
-        headers=headers,
-        method="GET",
-    )
-    repo_response = json.loads(urlopen(repo_request, timeout=5).read().decode('utf-8'))
+    repo_data = github_api_request(f"https://api.github.com/repos/RSS-Reborn/Sol-{name}")
 
     for variant in variants:
         netkan_path = f"netkan/sol-{name.lower()}/Sol-{name}-{variant}.netkan"
@@ -69,7 +68,7 @@ def generate_netkan(name, zip_name, variants):
 
         template = f"""identifier: Sol-{name}-{variant}
 name: Sol {name} Textures ({variant})
-abstract: {repo_response.get('description', f'The {variant} textures for Sol {name}.')}
+abstract: {repo_data.get('description', f'The {variant} textures for Sol {name}.')}
 license: restricted
 author:
   - ballisticfox
@@ -111,6 +110,8 @@ depends:
 def main():
     parser = argparse.ArgumentParser(description="Generate CKAN files")
     parser.add_argument("names", nargs="*", help="Names of specific modules/standalone entries to update (e.g. EarthSystem Sol-Core)")
+    parser.add_argument("-n", "--netkan-path", default=NETKAN_PATH, help="Path to netkan.exe (default: %(default)s)")
+    parser.add_argument("-g", "--github-token", default=GITHUB_TOKEN, help="GitHub token for API access (default: %(default)s)")
     args = parser.parse_args()
 
     filter_names = set(args.names)
