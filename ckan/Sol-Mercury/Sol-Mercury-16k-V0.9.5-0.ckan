@@ -1,56 +1,56 @@
 {
-    "spec_version": 1,
-    "identifier": "Sol-Mercury-16k",
-    "name": "Sol Mercury Textures (16k)",
-    "abstract": "Sol Textures for Mercury",
-    "author": [
-        "ballisticfox",
-        "Charon_S"
-    ],
-    "version": "V0.9.5-0",
-    "ksp_version": "1.12",
-    "license": "restricted",
-    "release_status": "stable",
-    "resources": {
-        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
-        "repository": "https://github.com/RSS-Reborn/Sol-Mercury",
-        "bugtracker": "https://github.com/RSS-Reborn/Sol-Mercury/issues",
-        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  "spec_version": 1,
+  "identifier": "Sol-Mercury-16k",
+  "name": "Sol Mercury Textures (16k)",
+  "abstract": "Sol Textures for Mercury",
+  "author": [
+    "ballisticfox",
+    "Charon_S"
+  ],
+  "version": "V0.9.5-0",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+    "repository": "https://github.com/RSS-Reborn/Sol-Mercury",
+    "bugtracker": "https://github.com/RSS-Reborn/Sol-Mercury/issues",
+    "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "provides": [
+    "Sol-Mercury"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Sol-Mercury-4k"
     },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "provides": [
-        "Sol-Mercury"
-    ],
-    "depends": [
-        {
-            "name": "Sol-Core"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "Sol-Mercury-4k"
-        },
-        {
-            "name": "Sol-Mercury-8k"
-        }
-    ],
-    "install": [
-        {
-            "file": "GameData/Sol-Textures",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://github.com/RSS-Reborn/Sol-Mercury/releases/download/V0.9.5-0/Sol_Mercury_16k.zip",
-    "download_size": 366000576,
-    "download_hash": {
-        "sha1": "429A70D9DD449F2E354EDB504802707EFF1C48AB",
-        "sha256": "135F54908EE26EDFCD0C3DC11DA27555B16AB1971ED06A85AEF9C7E1D0E29DA4"
-    },
-    "download_content_type": "application/zip",
-    "install_size": 583228510,
-    "release_date": "2026-04-01T03:07:18Z",
-    "x_generated_by": "netkan"
+    {
+      "name": "Sol-Mercury-8k"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/Sol-Textures",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/RSS-Reborn/Sol-Mercury/releases/download/V0.9.5-0/Sol_Mercury_16k.zip",
+  "download_size": 366000576,
+  "download_hash": {
+    "sha1": "429A70D9DD449F2E354EDB504802707EFF1C48AB",
+    "sha256": "135F54908EE26EDFCD0C3DC11DA27555B16AB1971ED06A85AEF9C7E1D0E29DA4"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 583228510,
+  "release_date": "2026-04-01T03:07:18Z",
+  "x_generated_by": "rkan"
 }

@@ -65,13 +65,24 @@ impl CkanResources {
             } else {
                 resolve(resources.bugtracker, repo)
             },
-            homepage: resolve(resources.homepage, repo),
+
+            homepage: if resources.homepage.is_none() {
+                Some(format!("https://github.com/{}", repo))
+            } else {
+                resolve(resources.homepage, repo)
+            },
+
             repository: if resources.repository.is_none() {
                 Some(format!("https://github.com/{}", repo))
             } else {
                 resolve(resources.repository, repo)
             },
-            manual: resolve(resources.manual, repo),
+
+            manual: if resources.manual.is_none() {
+                Some(format!("https://github.com/{}/wiki", repo))
+            } else {
+                resolve(resources.manual, repo)
+            },
         }
     }
 }

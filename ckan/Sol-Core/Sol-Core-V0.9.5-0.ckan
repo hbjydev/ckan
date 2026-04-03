@@ -1,135 +1,123 @@
 {
-    "spec_version": 1,
-    "identifier": "Sol-Core",
-    "name": "Sol Core",
-    "abstract": "Core Textures and Sounds for Sol",
-    "author": [
-        "ballisticfox",
-        "Charon_S"
-    ],
-    "version": "V0.9.5-0",
-    "ksp_version_min": "1.12",
-    "license": "restricted",
-    "release_status": "stable",
-    "resources": {
-        "homepage": "https://github.com/rss-reborn/sol-configs/wiki",
-        "repository": "https://github.com/rss-reborn/sol-core",
-        "bugtracker": "https://github.com/RSS-Reborn/Sol-Core/issues",
-        "manual": "https://github.com/rss-reborn/sol-configs/wiki"
+  "spec_version": 1,
+  "identifier": "Sol-Core",
+  "name": "Sol Core",
+  "abstract": "Core Textures and Sounds for Sol",
+  "author": [
+    "ballisticfox",
+    "Charon_S"
+  ],
+  "version": "V0.9.5-0",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+    "repository": "https://github.com/RSS-Reborn/Sol-Core/",
+    "bugtracker": "https://github.com/RSS-Reborn/Sol-Core/issues",
+    "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "provides": [
+    "RealSolarSystem",
+    "RP-1-ExpressInstall-Graphics"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Venus"
     },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "provides": [
-        "RealSolarSystem",
-        "RP-1-ExpressInstall-Graphics"
-    ],
-    "depends": [
-        {
-            "name": "Kopernicus"
-        },
-        {
-            "name": "KSPBurst"
-        },
-        {
-            "name": "Harmony2"
-        },
-        {
-            "name": "ParallaxContinued-KTL"
-        },
-        {
-            "name": "KSPTextureLoader"
-        },
-        {
-            "name": "AdvancedPQSTools"
-        },
-        {
-            "name": "BurstPQS"
-        },
-        {
-            "name": "KSPCommunityFixes"
-        },
-        {
-            "name": "KSCSwitcher"
-        },
-        {
-            "name": "TextureReplacer"
-        },
-        {
-            "name": "Sol-Configs"
-        },
-        {
-            "name": "Sol-Visuals"
-        },
-        {
-            "name": "Sol-Launchsites",
-            "choice_help_text": "Choose the texture quality for the launch sites. Higher qualities will require more powerful hardware."
-        },
-        {
-            "name": "Sol-Sun",
-            "choice_help_text": "Choose the texture quality for the Sun. Higher qualities will require more powerful hardware."
-        },
-        {
-            "name": "Sol-Mercury",
-            "choice_help_text": "Choose the texture quality for Mercury. Higher qualities will require more powerful hardware."
-        },
-        {
-            "name": "Sol-Venus",
-            "choice_help_text": "Choose the texture quality for Venus. Higher qualities will require more powerful hardware."
-        },
-        {
-            "name": "Sol-EarthSystem",
-            "choice_help_text": "Choose the texture quality for Earth. Higher qualities will require more powerful hardware."
-        },
-        {
-            "name": "Sol-MarsSystem",
-            "choice_help_text": "Choose the texture quality for Mars. Higher qualities will require more powerful hardware."
-        },
-        {
-            "name": "Sol-JupiterSystem",
-            "choice_help_text": "Choose the texture quality for Jupiter. Higher qualities will require more powerful hardware."
-        },
-        {
-            "name": "Sol-SaturnSystem",
-            "choice_help_text": "Choose the texture quality for Saturn. Higher qualities will require more powerful hardware.\nNOTE: The 16k textures are currently unavailable due to limitations with CKAN. This is a known issue and is being worked on."
-        },
-        {
-            "name": "Sol-UranusSystem",
-            "choice_help_text": "Choose the texture quality for Uranus. Higher qualities will require more powerful hardware."
-        },
-        {
-            "name": "Sol-NeptuneSystem",
-            "choice_help_text": "Choose the texture quality for Neptune. Higher qualities will require more powerful hardware."
-        },
-        {
-            "name": "Sol-AsteroidBelt",
-            "choice_help_text": "Choose the texture quality for asteroid belts. Higher qualities will require more powerful hardware."
-        },
-        {
-            "name": "Sol-KuiperBelt",
-            "choice_help_text": "Choose the texture quality for the Kuiper Belt. Higher qualities will require more powerful hardware."
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "RealSolarSystem"
-        }
-    ],
-    "install": [
-        {
-            "file": "GameData/Sol-Textures",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://github.com/RSS-Reborn/Sol-Core/releases/download/V0.9.5-0/Sol_Core-V0.9.5.zip",
-    "download_size": 160349494,
-    "download_hash": {
-        "sha1": "E06FED02CFBDA2C7B06713CCFF78834E871CD1D0",
-        "sha256": "9F5A8B7164DE76B1DA2C81D6D5212DD2841DBE17002AC1FEA2FF947B8AE3FA0D"
+    {
+      "name": "KSPTextureLoader"
     },
-    "download_content_type": "application/zip",
-    "install_size": 206306887,
-    "release_date": "2026-04-01T02:04:44Z",
-    "x_generated_by": "netkan"
+    {
+      "name": "Sol-MarsSystem"
+    },
+    {
+      "name": "Sol-Visuals"
+    },
+    {
+      "name": "Sol-SaturnSystem"
+    },
+    {
+      "name": "KSCSwitcher"
+    },
+    {
+      "name": "Sol-UranusSystem"
+    },
+    {
+      "name": "Sol-EarthSystem"
+    },
+    {
+      "name": "Kopernicus"
+    },
+    {
+      "name": "Sol-Launchsites"
+    },
+    {
+      "name": "ParallaxContinued-KTL"
+    },
+    {
+      "name": "Sol-AsteroidBelt"
+    },
+    {
+      "name": "Sol-NeptuneSystem"
+    },
+    {
+      "name": "TextureReplacer"
+    },
+    {
+      "name": "Sol-JupiterSystem"
+    },
+    {
+      "name": "Sol-Mercury"
+    },
+    {
+      "name": "KSPBurst"
+    },
+    {
+      "name": "Sol-KuiperBelt"
+    },
+    {
+      "name": "Sol-Configs"
+    },
+    {
+      "name": "Sol-Sun"
+    },
+    {
+      "name": "KSPCommunityFixes"
+    },
+    {
+      "name": "BurstPQS"
+    },
+    {
+      "name": "AdvancedPQSTools"
+    },
+    {
+      "name": "Harmony2"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RealSolarSystem"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/Sol-Textures",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/RSS-Reborn/Sol-Core/releases/download/V0.9.5-0/Sol_Core-V0.9.5.zip",
+  "download_size": 160349494,
+  "download_hash": {
+    "sha1": "E06FED02CFBDA2C7B06713CCFF78834E871CD1D0",
+    "sha256": "9F5A8B7164DE76B1DA2C81D6D5212DD2841DBE17002AC1FEA2FF947B8AE3FA0D"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 206306887,
+  "release_date": "2026-04-01T02:04:44Z",
+  "x_generated_by": "rkan"
 }

@@ -12,8 +12,6 @@ repo = "Phantomical/KSPTextureLoader"
 asset_match = "ParallaxContinued-Full.zip"
 
 [resources]
-manual = "/"
-homepage = "/"
 
 [[install]]
 file = "GameData/ParallaxContinued"

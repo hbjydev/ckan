@@ -1,56 +1,56 @@
 {
-    "spec_version": 1,
-    "identifier": "Sol-JupiterSystem-16k",
-    "name": "Sol JupiterSystem Textures (16k)",
-    "abstract": "Sol Textures for the entire Jupiter System!",
-    "author": [
-        "ballisticfox",
-        "Charon_S"
-    ],
-    "version": "V0.9.5-0",
-    "ksp_version": "1.12",
-    "license": "restricted",
-    "release_status": "stable",
-    "resources": {
-        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
-        "repository": "https://github.com/RSS-Reborn/Sol-JupiterSystem",
-        "bugtracker": "https://github.com/RSS-Reborn/Sol-JupiterSystem/issues",
-        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  "spec_version": 1,
+  "identifier": "Sol-JupiterSystem-16k",
+  "name": "Sol Jupiter System Textures (16k)",
+  "abstract": "Sol Textures for the entire Jupiter System!",
+  "author": [
+    "ballisticfox",
+    "Charon_S"
+  ],
+  "version": "V0.9.5-0",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+    "repository": "https://github.com/RSS-Reborn/Sol-JupiterSystem",
+    "bugtracker": "https://github.com/RSS-Reborn/Sol-JupiterSystem/issues",
+    "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "provides": [
+    "Sol-JupiterSystem"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Sol-JupiterSystem-4k"
     },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "provides": [
-        "Sol-JupiterSystem"
-    ],
-    "depends": [
-        {
-            "name": "Sol-Core"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "Sol-JupiterSystem-4k"
-        },
-        {
-            "name": "Sol-JupiterSystem-8k"
-        }
-    ],
-    "install": [
-        {
-            "file": "GameData/Sol-Textures",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://github.com/RSS-Reborn/Sol-JupiterSystem/releases/download/V0.9.5-0/Sol_Jupiter-System_16k.zip",
-    "download_size": 1935301594,
-    "download_hash": {
-        "sha1": "24D3CABDD8F446C11CD8377A766E7ED142D9C2FC",
-        "sha256": "8484AF72947FFECB6A3C58487B18D9BA2B3D6B838BE46149BCD7E2FF91D295CB"
-    },
-    "download_content_type": "application/zip",
-    "install_size": 2470273990,
-    "release_date": "2026-04-01T04:50:55Z",
-    "x_generated_by": "netkan"
+    {
+      "name": "Sol-JupiterSystem-8k"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/Sol-Textures",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/RSS-Reborn/Sol-JupiterSystem/releases/download/V0.9.5-0/Sol_Jupiter-System_16k.zip",
+  "download_size": 1935301594,
+  "download_hash": {
+    "sha1": "24D3CABDD8F446C11CD8377A766E7ED142D9C2FC",
+    "sha256": "8484AF72947FFECB6A3C58487B18D9BA2B3D6B838BE46149BCD7E2FF91D295CB"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 2470273990,
+  "release_date": "2026-04-01T04:50:55Z",
+  "x_generated_by": "rkan"
 }

@@ -1,56 +1,53 @@
 {
-    "spec_version": 1,
-    "identifier": "Sol-SaturnSystem-8k",
-    "name": "Sol SaturnSystem Textures (8k)",
-    "abstract": "Sol Textures for the entire Saturn system!",
-    "author": [
-        "ballisticfox",
-        "Charon_S"
-    ],
-    "version": "V0.9.5-0",
-    "ksp_version": "1.12",
-    "license": "restricted",
-    "release_status": "stable",
-    "resources": {
-        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
-        "repository": "https://github.com/RSS-Reborn/Sol-SaturnSystem",
-        "bugtracker": "https://github.com/RSS-Reborn/Sol-SaturnSystem/issues",
-        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
-    },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "provides": [
-        "Sol-SaturnSystem"
-    ],
-    "depends": [
-        {
-            "name": "Sol-Core"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "Sol-SaturnSystem-4k"
-        },
-        {
-            "name": "Sol-SaturnSystem-16k"
-        }
-    ],
-    "install": [
-        {
-            "file": "GameData/Sol-Textures",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://github.com/RSS-Reborn/Sol-SaturnSystem/releases/download/V0.9.5-0/Sol_Saturn-System_8k.zip",
-    "download_size": 1181526986,
-    "download_hash": {
-        "sha1": "98CDA5475CCBC86B27397818C4C4F449BBB6D447",
-        "sha256": "02167A49B0E8D48CB955CBAEA3788E4E4788E9CD1BA3239603615D773C7D4D05"
-    },
-    "download_content_type": "application/zip",
-    "install_size": 1467132640,
-    "release_date": "2026-04-01T03:43:58Z",
-    "x_generated_by": "netkan"
+  "spec_version": 1,
+  "identifier": "Sol-SaturnSystem-8k",
+  "name": "Sol Saturn System Textures (8k)",
+  "abstract": "Sol Textures for the entire Saturn system!",
+  "author": [
+    "ballisticfox",
+    "Charon_S"
+  ],
+  "version": "V0.9.5-0",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+    "repository": "https://github.com/RSS-Reborn/Sol-SaturnSystem",
+    "bugtracker": "https://github.com/RSS-Reborn/Sol-SaturnSystem/issues",
+    "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "provides": [
+    "Sol-SaturnSystem"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Sol-SaturnSystem-4k"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/Sol-Textures",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/RSS-Reborn/Sol-SaturnSystem/releases/download/V0.9.5-0/Sol_Saturn-System_8k.zip",
+  "download_size": 1181526986,
+  "download_hash": {
+    "sha1": "98CDA5475CCBC86B27397818C4C4F449BBB6D447",
+    "sha256": "02167A49B0E8D48CB955CBAEA3788E4E4788E9CD1BA3239603615D773C7D4D05"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 1467132640,
+  "release_date": "2026-04-01T03:43:58Z",
+  "x_generated_by": "rkan"
 }

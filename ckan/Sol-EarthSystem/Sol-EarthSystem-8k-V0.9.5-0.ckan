@@ -1,56 +1,56 @@
 {
-    "spec_version": 1,
-    "identifier": "Sol-EarthSystem-8k",
-    "name": "Sol EarthSystem Textures (8k)",
-    "abstract": "Sol Textures for Earth and Luna.",
-    "author": [
-        "ballisticfox",
-        "Charon_S"
-    ],
-    "version": "V0.9.5-0",
-    "ksp_version": "1.12",
-    "license": "restricted",
-    "release_status": "stable",
-    "resources": {
-        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
-        "repository": "https://github.com/RSS-Reborn/Sol-EarthSystem",
-        "bugtracker": "https://github.com/RSS-Reborn/Sol-EarthSystem/issues",
-        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  "spec_version": 1,
+  "identifier": "Sol-EarthSystem-8k",
+  "name": "Sol Earth System Textures (8k)",
+  "abstract": "Sol Textures for Earth and Luna.",
+  "author": [
+    "ballisticfox",
+    "Charon_S"
+  ],
+  "version": "V0.9.5-0",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+    "repository": "https://github.com/RSS-Reborn/Sol-EarthSystem",
+    "bugtracker": "https://github.com/RSS-Reborn/Sol-EarthSystem/issues",
+    "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "provides": [
+    "Sol-EarthSystem"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Sol-EarthSystem-4k"
     },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "provides": [
-        "Sol-EarthSystem"
-    ],
-    "depends": [
-        {
-            "name": "Sol-Core"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "Sol-EarthSystem-4k"
-        },
-        {
-            "name": "Sol-EarthSystem-16k"
-        }
-    ],
-    "install": [
-        {
-            "file": "GameData/Sol-Textures",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://github.com/RSS-Reborn/Sol-EarthSystem/releases/download/V0.9.5-0/Sol_Earth-System_8k.zip",
-    "download_size": 515458213,
-    "download_hash": {
-        "sha1": "847D3E57C2F7F84A0B628E18858A82B9124F345E",
-        "sha256": "C541C7459D1FDDFD3F564A900C827C27860027B583CC9CD04EF2F7315816BBC3"
-    },
-    "download_content_type": "application/zip",
-    "install_size": 1009449103,
-    "release_date": "2026-04-01T03:32:02Z",
-    "x_generated_by": "netkan"
+    {
+      "name": "Sol-EarthSystem-16k"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/Sol-Textures",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/RSS-Reborn/Sol-EarthSystem/releases/download/V0.9.5-0/Sol_Earth-System_8k.zip",
+  "download_size": 515458213,
+  "download_hash": {
+    "sha1": "847D3E57C2F7F84A0B628E18858A82B9124F345E",
+    "sha256": "C541C7459D1FDDFD3F564A900C827C27860027B583CC9CD04EF2F7315816BBC3"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 1009449103,
+  "release_date": "2026-04-01T03:32:02Z",
+  "x_generated_by": "rkan"
 }

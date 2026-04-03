@@ -1,56 +1,56 @@
 {
-    "spec_version": 1,
-    "identifier": "Sol-Venus-16k",
-    "name": "Sol Venus Textures (16k)",
-    "abstract": "Sol Textures for Venus",
-    "author": [
-        "ballisticfox",
-        "Charon_S"
-    ],
-    "version": "V0.9.5-0",
-    "ksp_version": "1.12",
-    "license": "restricted",
-    "release_status": "stable",
-    "resources": {
-        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
-        "repository": "https://github.com/RSS-Reborn/Sol-Venus",
-        "bugtracker": "https://github.com/RSS-Reborn/Sol-Venus/issues",
-        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  "spec_version": 1,
+  "identifier": "Sol-Venus-16k",
+  "name": "Sol Venus Textures (16k)",
+  "abstract": "Sol Textures for Venus",
+  "author": [
+    "ballisticfox",
+    "Charon_S"
+  ],
+  "version": "V0.9.5-0",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+    "repository": "https://github.com/RSS-Reborn/Sol-Venus",
+    "bugtracker": "https://github.com/RSS-Reborn/Sol-Venus/issues",
+    "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "provides": [
+    "Sol-Venus"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Sol-Venus-4k"
     },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "provides": [
-        "Sol-Venus"
-    ],
-    "depends": [
-        {
-            "name": "Sol-Core"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "Sol-Venus-4k"
-        },
-        {
-            "name": "Sol-Venus-8k"
-        }
-    ],
-    "install": [
-        {
-            "file": "GameData/Sol-Textures",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://github.com/RSS-Reborn/Sol-Venus/releases/download/V0.9.5-0/Sol_Venus_16k.zip",
-    "download_size": 456120811,
-    "download_hash": {
-        "sha1": "C659EA6A56AD51EC559A33C60B45C0A983DE135B",
-        "sha256": "9098CBF1427390837F2E4D7F5F5F9D7D49F8D35DC543BA03DBF15A8893C235AB"
-    },
-    "download_content_type": "application/zip",
-    "install_size": 594425946,
-    "release_date": "2026-04-01T03:28:29Z",
-    "x_generated_by": "netkan"
+    {
+      "name": "Sol-Venus-8k"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/Sol-Textures",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/RSS-Reborn/Sol-Venus/releases/download/V0.9.5-0/Sol_Venus_16k.zip",
+  "download_size": 456120811,
+  "download_hash": {
+    "sha1": "C659EA6A56AD51EC559A33C60B45C0A983DE135B",
+    "sha256": "9098CBF1427390837F2E4D7F5F5F9D7D49F8D35DC543BA03DBF15A8893C235AB"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 594425946,
+  "release_date": "2026-04-01T03:28:29Z",
+  "x_generated_by": "rkan"
 }
