@@ -42,7 +42,6 @@ While this repo provides CKAN configs for most of the modifications necessary
 to run the Sol planet pack, you still need to do some things yourself. Namely,
 this repository does not provide the following:
 
-- Advanced PQS Tools v1.6.0 (install via the Versions tab for the mod in CKAN)
 - Blackrack's Volumetric Clouds v5 (https://www.patreon.com/c/blackrack[Patreon])
 
 == Updating the CKAN packages
