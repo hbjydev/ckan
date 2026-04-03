@@ -46,7 +46,7 @@ this repository does not provide the following:
 
 == Updating the CKAN packages
 
-There is a file:./rkan/README.adoc[command line tool] to update the CKAN
+There is a link:./rkan/README.adoc[command line tool] to update the CKAN
 package set in this repository. The script also holds configurations for which
 packages to build.
 
