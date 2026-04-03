@@ -1,56 +1,56 @@
 {
-    "spec_version": 1,
-    "identifier": "Sol-KuiperBelt-4k",
-    "name": "Sol KuiperBelt Textures (4k)",
-    "abstract": "Sol Textures for the Pluto System and Arrokoth.",
-    "author": [
-        "ballisticfox",
-        "Charon_S"
-    ],
-    "version": "V0.9.5-0",
-    "ksp_version": "1.12",
-    "license": "restricted",
-    "release_status": "stable",
-    "resources": {
-        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
-        "repository": "https://github.com/RSS-Reborn/Sol-KuiperBelt",
-        "bugtracker": "https://github.com/RSS-Reborn/Sol-KuiperBelt/issues",
-        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  "spec_version": 1,
+  "identifier": "Sol-KuiperBelt-4k",
+  "name": "Sol Kuiper Belt Textures (4k)",
+  "abstract": "Sol Textures for the Pluto System and Arrokoth.",
+  "author": [
+    "ballisticfox",
+    "Charon_S"
+  ],
+  "version": "V0.9.5-0",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+    "repository": "https://github.com/RSS-Reborn/Sol-KuiperBelt",
+    "bugtracker": "https://github.com/RSS-Reborn/Sol-KuiperBelt/issues",
+    "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "provides": [
+    "Sol-KuiperBelt"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Sol-KuiperBelt-8k"
     },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "provides": [
-        "Sol-KuiperBelt"
-    ],
-    "depends": [
-        {
-            "name": "Sol-Core"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "Sol-KuiperBelt-8k"
-        },
-        {
-            "name": "Sol-KuiperBelt-16k"
-        }
-    ],
-    "install": [
-        {
-            "file": "GameData/Sol-Textures",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://github.com/RSS-Reborn/Sol-KuiperBelt/releases/download/V0.9.5-0/Sol_Kuiper-Belt_4k.zip",
-    "download_size": 173463450,
-    "download_hash": {
-        "sha1": "E9E330DBBB1BFC765366927AE31D3B8AD6CEF0D6",
-        "sha256": "9633C399687F0E5F2BB7AF1FAB42F7AAA1177F73857D05BB4C6D5137606BEC05"
-    },
-    "download_content_type": "application/zip",
-    "install_size": 247356454,
-    "release_date": "2026-04-01T03:19:56Z",
-    "x_generated_by": "netkan"
+    {
+      "name": "Sol-KuiperBelt-16k"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/Sol-Textures",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/RSS-Reborn/Sol-KuiperBelt/releases/download/V0.9.5-0/Sol_Kuiper-Belt_4k.zip",
+  "download_size": 173463450,
+  "download_hash": {
+    "sha1": "E9E330DBBB1BFC765366927AE31D3B8AD6CEF0D6",
+    "sha256": "9633C399687F0E5F2BB7AF1FAB42F7AAA1177F73857D05BB4C6D5137606BEC05"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 247356454,
+  "release_date": "2026-04-01T03:19:56Z",
+  "x_generated_by": "rkan"
 }

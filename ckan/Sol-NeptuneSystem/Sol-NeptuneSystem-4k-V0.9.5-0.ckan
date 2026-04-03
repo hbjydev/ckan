@@ -1,56 +1,56 @@
 {
-    "spec_version": 1,
-    "identifier": "Sol-NeptuneSystem-4k",
-    "name": "Sol NeptuneSystem Textures (4k)",
-    "abstract": "Sol Textures for the entire Neptune system!",
-    "author": [
-        "ballisticfox",
-        "Charon_S"
-    ],
-    "version": "V0.9.5-0",
-    "ksp_version": "1.12",
-    "license": "restricted",
-    "release_status": "stable",
-    "resources": {
-        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
-        "repository": "https://github.com/RSS-Reborn/Sol-NeptuneSystem",
-        "bugtracker": "https://github.com/RSS-Reborn/Sol-NeptuneSystem/issues",
-        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  "spec_version": 1,
+  "identifier": "Sol-NeptuneSystem-4k",
+  "name": "Sol Neptune System Textures (4k)",
+  "abstract": "Sol Textures for the entire Neptune system!",
+  "author": [
+    "ballisticfox",
+    "Charon_S"
+  ],
+  "version": "V0.9.5-0",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+    "repository": "https://github.com/RSS-Reborn/Sol-NeptuneSystem",
+    "bugtracker": "https://github.com/RSS-Reborn/Sol-NeptuneSystem/issues",
+    "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "provides": [
+    "Sol-NeptuneSystem"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Sol-NeptuneSystem-8k"
     },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "provides": [
-        "Sol-NeptuneSystem"
-    ],
-    "depends": [
-        {
-            "name": "Sol-Core"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "Sol-NeptuneSystem-8k"
-        },
-        {
-            "name": "Sol-NeptuneSystem-16k"
-        }
-    ],
-    "install": [
-        {
-            "file": "GameData/Sol-Textures",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://github.com/RSS-Reborn/Sol-NeptuneSystem/releases/download/V0.9.5-0/Sol_Neptune-System_4k.zip",
-    "download_size": 127289133,
-    "download_hash": {
-        "sha1": "C53D03F6D25D52780CDF34A144C98919DE33BDA8",
-        "sha256": "3C4F7445C0ABB99DA4B6AC2FE104DE379A1237A181BEDF3572DFBD900B57BE8F"
-    },
-    "download_content_type": "application/zip",
-    "install_size": 192223912,
-    "release_date": "2026-04-01T03:16:23Z",
-    "x_generated_by": "netkan"
+    {
+      "name": "Sol-NeptuneSystem-16k"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/Sol-Textures",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/RSS-Reborn/Sol-NeptuneSystem/releases/download/V0.9.5-0/Sol_Neptune-System_4k.zip",
+  "download_size": 127289133,
+  "download_hash": {
+    "sha1": "C53D03F6D25D52780CDF34A144C98919DE33BDA8",
+    "sha256": "3C4F7445C0ABB99DA4B6AC2FE104DE379A1237A181BEDF3572DFBD900B57BE8F"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 192223912,
+  "release_date": "2026-04-01T03:16:23Z",
+  "x_generated_by": "rkan"
 }

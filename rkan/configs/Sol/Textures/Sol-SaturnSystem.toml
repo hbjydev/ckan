@@ -1,0 +1,35 @@
+identifier = "Sol-SaturnSystem"
+name = "Sol Saturn System Textures"
+tags = ["config", "planet-pack"]
+license = "restricted"
+authors = ["ballisticfox", "Charon_S"]
+ksp_version = "1.12"
+repo = "RSS-Reborn/Sol-SaturnSystem"
+
+[resources]
+manual = "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+homepage = "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+
+[[install]]
+file = "GameData/Sol-Textures"
+install_to = "GameData"
+
+[dependencies]
+Sol-Core = "*"
+
+[[variants]]
+identifier = "4k"
+name = "4k"
+asset_match = "Sol_Saturn-System_4k.zip"
+
+[[variants]]
+identifier = "8k"
+name = "8k"
+asset_match = "Sol_Saturn-System_8k.zip"
+
+# DISABLED - Need to use a different compression method for 16k textures, as
+#            the file is currently a 7z, which CKAN doesn't support.
+#[[variants]]
+#identifier = "16k"
+#name = "16k"
+#asset_match = "Sol_Saturn-System_16k.zip"

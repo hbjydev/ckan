@@ -1,60 +1,62 @@
 {
-    "spec_version": 1,
-    "identifier": "Sol-Visuals",
-    "name": "Sol Visuals",
-    "abstract": "EVE & Scatterer configs for Sol",
-    "author": [
-        "ballisticfox",
-        "Charon_S"
-    ],
-    "version": "V0.9.5-0",
-    "ksp_version_min": "1.12",
-    "license": "restricted",
-    "release_status": "stable",
-    "resources": {
-        "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
-        "repository": "https://github.com/RSS-Reborn/Sol-Visuals",
-        "bugtracker": "https://github.com/RSS-Reborn/Sol-Visuals/issues",
-        "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  "spec_version": 1,
+  "identifier": "Sol-Visuals",
+  "name": "Sol Visuals",
+  "abstract": "EVE & Scatterer configs for Sol",
+  "author": [
+    "ballisticfox",
+    "Charon_S"
+  ],
+  "version": "V0.9.5-0",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "bugtracker": "https://github.com/RSS-Reborn/Sol-Visuals/issues",
+    "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+    "repository": "https://github.com/RSS-Reborn/Sol-Visuals/",
+    "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "provides": [
+    "EnvironmentalVisualEnhancements-Config",
+    "EnvironmentalVisualEnhancements-Config-sol",
+    "Scatterer-config",
+    "Scatterer-sunflare"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Core"
     },
-    "tags": [
-        "config",
-        "planet-pack"
-    ],
-    "provides": [
-        "EnvironmentalVisualEnhancements-Config",
-        "EnvironmentalVisualEnhancements-Config-sol",
-        "Scatterer-config",
-        "Scatterer-sunflare"
-    ],
-    "depends": [
-        {
-            "name": "ModuleManager"
-        },
-        {
-            "name": "Sol-Core"
-        },
-        {
-            "name": "EnvironmentalVisualEnhancements"
-        },
-        {
-            "name": "Scatterer"
-        }
-    ],
-    "install": [
-        {
-            "file": "GameData/Sol-Visuals",
-            "install_to": "GameData"
-        }
-    ],
-    "download": "https://github.com/RSS-Reborn/Sol-Visuals/releases/download/V0.9.5-0/Sol_Visuals-0.9.5.zip",
-    "download_size": 40956,
-    "download_hash": {
-        "sha1": "4CAADDDEECA87EC5FE374177D4D1381611FB39BA",
-        "sha256": "37F800FA0BBABE90466F2E476951E70E78F3533CFA38A0C0013F919C2EF94196"
+    {
+      "name": "EnvironmentalVisualEnhancements"
     },
-    "download_content_type": "application/zip",
-    "install_size": 120837,
-    "release_date": "2026-04-01T18:26:52Z",
-    "x_generated_by": "netkan"
+    {
+      "name": "Scatterer"
+    },
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "recommends": [],
+  "conflicts": [],
+  "install": [
+    {
+      "file": "GameData/Sol-Visuals",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/RSS-Reborn/Sol-Visuals/releases/download/V0.9.5-0/Sol_Visuals-0.9.5.zip",
+  "download_size": 40956,
+  "download_hash": {
+    "sha1": "4CAADDDEECA87EC5FE374177D4D1381611FB39BA",
+    "sha256": "37F800FA0BBABE90466F2E476951E70E78F3533CFA38A0C0013F919C2EF94196"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 120837,
+  "release_date": "2026-04-01T21:04:46+00:00",
+  "x_generated_by": "rkan"
 }
