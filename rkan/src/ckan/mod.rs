@@ -46,7 +46,7 @@ pub async fn generate(options: GenerateOptions) -> Result<(), Box<dyn std::error
     };
     
     let release_status = if release_info.prerelease {
-        CkanReleaseStatus::Prerelease
+        CkanReleaseStatus::Testing
     } else {
         CkanReleaseStatus::Stable
     };

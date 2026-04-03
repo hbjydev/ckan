@@ -39,7 +39,8 @@ pub struct CkanFile {
 #[serde(rename_all = "lowercase")]
 pub enum CkanReleaseStatus {
     Stable,
-    Prerelease,
+    Testing,
+    Development,
 }
 
 #[derive(Clone, Serialize)]

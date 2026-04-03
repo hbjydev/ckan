@@ -46,30 +46,43 @@ this repository does not provide the following:
 
 == Updating the CKAN packages
 
-There is a file:./gen_ckan.py[simple script] to update the CKAN package set in
-this repository. The script also holds configurations for which packages to
-build.
+There is a file:./rkan/README.adoc[command line tool] to update the CKAN
+package set in this repository. The script also holds configurations for which
+packages to build.
 
-To run this script, just run `python ./gen_ckan.py`.
+To run this tool, run `cargo run -- generate`.
 
-You will need to set the `NETKAN_PATH` environment variable to the path to your
-copy of `netkan.exe`.
-
-If you run into GitHub rate limit issues, you can set the `GITHUB_TOKEN` env
-var to a Personal Access Token, which should increase your rate limit
-significantly. You only need to create a read-only public token here, no
+You will need to set the `GITHUB_TOKEN` environment variable to a GitHub
+Personal Access Token in order to have RKAN generate the relevant metadata
+files for your mods. You only need to create a read-only public token here, no
 additional scopes are needed when using fine-grained access tokens for this.
 
 On Windows, to set these environment variables, do:
 
 [source,pwsh]
 ----
-$env:NETKAN_PATH = "C:\path\to\netkan.exe"
 $env:GITHUB_TOKEN = "<github pat here>"
 ----
 
-Linux is currently unsupported, but I intend to replace netkan with a
-cross-platform script that does what netkan does purely in Python.
+On Linux and macOS:
+
+[source,bash]
+----
+export GITHUB_TOKEN="<github pat here>"
+----
+
+Then, you can run:
+
+[source,bash]
+----
+$ cd rkan
+
+# generate all .ckan files, processing 4 mods in parallel
+$ cargo run -- generate --jobs 4
+
+# generate specifically Sol-configs
+$ cargo run -- generate Sol-Configs
+----
 
 == License
 
