@@ -47,7 +47,10 @@ depends:
   - name: Sol-JupiterSystem
     choice_help_text: Choose the texture quality for Jupiter. Higher qualities will require more powerful hardware.
   - name: Sol-SaturnSystem
-    choice_help_text: Choose the texture quality for Saturn. Higher qualities will require more powerful hardware.
+    choice_help_text: >-
+      Choose the texture quality for Saturn. Higher qualities will require more powerful hardware.
+
+      NOTE: The 16k textures are currently unavailable due to limitations with CKAN. This is a known issue and is being worked on.
   - name: Sol-UranusSystem
     choice_help_text: Choose the texture quality for Uranus. Higher qualities will require more powerful hardware.
   - name: Sol-NeptuneSystem

@@ -92,7 +92,7 @@
         },
         {
             "name": "Sol-SaturnSystem",
-            "choice_help_text": "Choose the texture quality for Saturn. Higher qualities will require more powerful hardware."
+            "choice_help_text": "Choose the texture quality for Saturn. Higher qualities will require more powerful hardware.\nNOTE: The 16k textures are currently unavailable due to limitations with CKAN. This is a known issue and is being worked on."
         },
         {
             "name": "Sol-UranusSystem",
