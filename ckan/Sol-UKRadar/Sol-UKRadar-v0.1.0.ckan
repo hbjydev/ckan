@@ -1,0 +1,43 @@
+{
+  "spec_version": 1,
+  "identifier": "Sol-UKRadar",
+  "name": "[Sol] UK Radar Sites",
+  "abstract": "An addon to Sol (KSP mod) to add missing ground stations to the UK",
+  "author": [
+    "hbjydev"
+  ],
+  "version": "v0.1.0",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/hbjydev/UKRadar",
+    "repository": "https://github.com/hbjydev/UKRadar",
+    "bugtracker": "https://github.com/hbjydev/UKRadar/issues",
+    "manual": "https://github.com/hbjydev/UKRadar/wiki"
+  },
+  "tags": [
+    "config"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/UKRadar",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/hbjydev/UKRadar/releases/download/v0.1.0/UKRadar-0.1.0.zip",
+  "download_size": 12942,
+  "download_hash": {
+    "sha1": "74C46500DD7E0125774E0227F7B9AFD13FD290F2",
+    "sha256": "7980BA2B27D7CC3F32889D9F600CCE4278D8DED5EF1C3A833FF26E734C2779D8"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 12538,
+  "release_date": "2026-04-04T16:08:27Z",
+  "x_generated_by": "rkan/0.1.2"
+}

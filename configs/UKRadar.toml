@@ -1,0 +1,16 @@
+identifier = "Sol-UKRadar"
+name = "[Sol] UK Radar Sites"
+tags = ["config"]
+license = "restricted"
+authors = ["hbjydev"]
+ksp_version = "1.12"
+repo = "hbjydev/UKRadar"
+
+[resources]
+
+[[install]]
+file = "GameData/UKRadar"
+install_to = "GameData"
+
+[dependencies]
+Sol-Core = "*"
