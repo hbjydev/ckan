@@ -13,4 +13,5 @@ file = "GameData/UKRadar"
 install_to = "GameData"
 
 [dependencies]
+ModuleManager = "*"
 Sol-Core = "*"
