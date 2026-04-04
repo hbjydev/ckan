@@ -1,7 +1,7 @@
 identifier = "Sol-UKRadar"
 name = "[Sol] UK Radar Sites"
 tags = ["config"]
-license = "restricted"
+license = "Apache-2.0"
 authors = ["hbjydev"]
 ksp_version = "1.12"
 repo = "hbjydev/UKRadar"

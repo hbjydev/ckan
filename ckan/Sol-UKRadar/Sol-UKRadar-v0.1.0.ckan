@@ -8,7 +8,7 @@
   ],
   "version": "v0.1.0",
   "ksp_version": "1.12",
-  "license": "restricted",
+  "license": "Apache-2.0",
   "release_status": "stable",
   "resources": {
     "homepage": "https://github.com/hbjydev/UKRadar",
